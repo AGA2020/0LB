@@ -163,6 +163,9 @@ focus_tree = {
 		    has_war_with = GER
 		}
 	    completion_reward = {
+    hidden_effect = {
+		sound_effect = stavka
+		}
 		    add_political_power = 160
                     add_stability = 0.10 
                     add_war_support = 0.10 
@@ -199,9 +202,6 @@ focus_tree = {
 		cost = 5
 		icon = GFX_SOV_Leningrad_Circle
 	    completion_reward = {
-	hidden_effect = {
-		sound_effect = stavka
-		}
 		    army_experience = 100
 			add_ideas = SOV_terrain_adaptation_idea
 		}
