@@ -134,9 +134,8 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				industrial_capacity_factory = 0.03
-				industrial_capacity_dockyard = 0.03
-				conscription_factor = -0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 
 		}
@@ -155,9 +154,8 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				industrial_capacity_factory = 0.06
-				industrial_capacity_dockyard = 0.06
-				conscription_factor = -0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 
 		}
@@ -178,7 +176,6 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
-				conscription_factor = -0.05
 			}
 
 		}
@@ -244,10 +241,6 @@ ideas = {
 		SAF_equal_opportunities = {
 			allowed = {
 				always = no
-			}
-
-			allowed_civil_war = {
-				 has_government = communism
 			}
 
 			removal_cost = -1
@@ -483,7 +476,7 @@ ideas = {
 			available = {
 				if = {
 					limit = { has_dlc = "Together for Victory"}
-					has_completed_focus = SAF_support_the_policy_of_appeasement
+					has_completed_focus = SAF_outlaw_strikes
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -494,12 +487,6 @@ ideas = {
 			picture = generic_democratic_reformer_western_european_2d
 			
 			traits = { democratic_reformer }
-
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
 		
 			ai_will_do = {
 				factor = 0
