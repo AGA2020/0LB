@@ -164,6 +164,8 @@ focus_tree = {
 		}
 	    completion_reward = {
 		    add_political_power = 160
+                    add_stability = 0.10 
+                    add_war_support = 0.10 
 		}
 	
 	}
