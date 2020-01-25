@@ -231,8 +231,8 @@ focus_tree = {
 	focus = {
 		id = SAF_expand_the_cape_corps
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = SAF_reconstitute_the_cape_corps }
-		x = 0
+		prerequisite = { focus = SAF_reconstitute_the_cape_corps focus = SAF_secure_interests_in_africa focus = SAF_outlaw_strikes }
+		x = 1
 		y = 5
 		relative_position_id = SAF_war_measures_act
 
@@ -269,8 +269,8 @@ focus_tree = {
 		id = SAF_outlaw_strikes
 		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = SAF_work_for_all_poor }
-		x = 2
-		y = 5
+		x = 3
+		y = 4
 		relative_position_id = SAF_war_measures_act
 
 		cost = 5
@@ -296,10 +296,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = SAF_cheap_labor_2
-				add_idea = SAF_cheap_labor_3
-			}
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SAF_sir_patrick_duncan 
 		}
 	}
 
@@ -569,7 +568,7 @@ focus_tree = {
 		id = SAF_native_laws_amendment_act
 		icon = GFX_GENERIC_New_Constitution
 		prerequisite = { focus = SAF_police_windhoek }
-		x = -1
+		x = 1
 		y = 2
 		relative_position_id = SAF_support_the_policy_of_appeasement
 
@@ -580,7 +579,7 @@ focus_tree = {
 		}
 
 		available = {
-
+		date < 1939.6.1
 		}
 		
 		bypass = {
@@ -596,14 +595,41 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = SAF_cheap_labor_1
+			if  = {
+			limit = { date > 1936.1.1 date < 1937.1.1 }
+						add_timed_idea = {
+			    idea = SAF_cheap_labor_1
+				days = 1460
+				}
+			}
+			if  = {
+			limit = { date > 1937.1.1 date < 1938.1.1 }
+						add_timed_idea = {
+			    idea = SAF_cheap_labor_1
+				days = 1095
+				}
+			}
+			if  = {
+			limit = { date > 1938.1.1 date < 1939.1.1 }
+						add_timed_idea = {
+			    idea = SAF_cheap_labor_1
+				days = 730
+				}
+			}
+			if  = {
+			limit = { date > 1939.1.1 date < 1940.1.1 }
+						add_timed_idea = {
+			    idea = SAF_cheap_labor_1
+				days = 365
+				}
+			}
 		}
 	}
 	focus = {
 		id = SAF_voortrekker_monument
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = SAF_native_laws_amendment_act  }
-		x = 1
+		prerequisite = { focus = SAF_work_for_all_poor  }
+		x = -1
 		y = 1
 		relative_position_id = SAF_native_laws_amendment_act
 
@@ -624,9 +650,9 @@ focus_tree = {
 	focus = {
 		id = SAF_work_for_all_poor
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = SAF_native_laws_amendment_act }
+		prerequisite = { focus = SAF_police_windhoek }
 		x = -1
-		y = 4
+		y = 2
 		relative_position_id = SAF_support_the_policy_of_appeasement
 
 		cost = 5
@@ -648,14 +674,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
+		add_ideas = BUL_mobilized_resources
 
 		}
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = SAF_cheap_labor_1
-				add_idea = SAF_cheap_labor_2
-			}
+			add_ideas = BUL_mobilized_resources
 		}
 	}
 
