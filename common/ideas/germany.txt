@@ -2381,7 +2381,7 @@ ideas = {
 			
 		}
 
-		Deutsche Werke = {
+		Deutsche_Werke = {
 
 			
 			allowed = {
@@ -2397,6 +2397,8 @@ ideas = {
 			}
 			
 			traits = { pacific_fleet_naval_manufacturer }
+
+		}
 		
 		blohm_und_voss = {
 
