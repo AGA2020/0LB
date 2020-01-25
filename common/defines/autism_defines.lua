@@ -148,7 +148,7 @@ NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join c
 		0.0, -- NAVAL_INVASION_SUPPORT
 }
 NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 0.5 ---Vanilla value may need to change
-NDefines.NNavy.SUBMARINE_REVEAL_POW = 3.9		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
+NDefines.NNavy.SUBMARINE_REVEAL_POW = 4		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
 NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.1		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
 
 

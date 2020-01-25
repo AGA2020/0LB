@@ -194,7 +194,7 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes	
 				}
 				ship_hull_light = {
-					build_cost_ic = 0.15 instant = yes	
+					build_cost_ic = -0.05 instant = yes	
 				}
 				ship_hull_submarine = {
 					build_cost_ic = 0.15 instant = yes
@@ -225,7 +225,7 @@ ideas = {
 					build_cost_ic = -0.2 instant = yes	
 				}
 				ship_hull_light = {
-					build_cost_ic = 0.3 instant = yes	
+					build_cost_ic = -0.1 instant = yes	
 				}
 				ship_hull_submarine = {
 					build_cost_ic = 0.3 instant = yes
