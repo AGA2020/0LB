@@ -1099,9 +1099,9 @@ ideas = {
 			
 			traits = { popular_figurehead }
 		}
-		saionji_kinmochi = { #西園寺
+		saionji_kinmochi = {
 			available = {
-				date > 1939.6.1 }
+				NOT = { date > 1940.11.10 }
 			}
 			ai_will_do = {
 				factor = 1

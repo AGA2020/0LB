@@ -2494,13 +2494,14 @@ focus_tree = {
 		cost = 5
 		x = 37
 		y = 2
+		available = {
+		has_war_with = ENG
+		}		
 		icon = GFX_SIA_maritmesilkroad
 		completion_reward = {
 			GER = {if = { limit = { has_idea = GER_british_naval_dominance_challenged } remove_ideas = GER_british_naval_dominance_challenged} }
 			GER = {if = { limit = { has_idea = GER_british_naval_dominance_challenged2 } remove_ideas = GER_british_naval_dominance_challenged2} }
-		    add_ideas = {
-			    GER_scrap_capitals
-			}
+			add_timed_idea = { idea = GER_scrap_capitals days = 540 }
 		}
 	}
 	
