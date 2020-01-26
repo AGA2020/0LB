@@ -115,7 +115,7 @@ ideas = {
 			equipment_bonus = {
 			    submarine = {
 				    build_cost_ic = -0.2 instant = yes
-					surface_detection = -0.2 instant = yes
+					surface_detection = 0.1 instant = yes
 					sub_visibility = -0.1 instant = yes
 			    }
 			}
