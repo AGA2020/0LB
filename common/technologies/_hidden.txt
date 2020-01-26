@@ -4,6 +4,10 @@ technologies = {
 			building = air_base
 			level = 6
 		}
+		enable_building = {
+			building = bunker
+			level = 5
+		}
 	}
 }
 ### EOF ###
