@@ -102,12 +102,12 @@ USA_pacific_campaign = {
 			USA = {controls_state = 648}
 			NOT = {has_idea = USA_operation_idea}
 		}
-		cost = 25
+		cost = 10
 		fire_only_once = yes
 		complete_effect = {
 		    add_timed_idea = {
 			    idea = USA_operation_idea
-				days = 30
+				days = 90
 			}
 		} 
 	}
@@ -125,12 +125,12 @@ USA_pacific_campaign = {
 			USA = {controls_state = 645}
 			NOT = {has_idea = USA_operation_idea}
 		}
-		cost = 25
+		cost = 10
 		fire_only_once = yes
 		complete_effect = {
 		    add_timed_idea = {
 			    idea = USA_operation_idea
-				days = 30
+				days = 90
 			}
 		} 
 	}
@@ -148,12 +148,12 @@ USA_pacific_campaign = {
 			NOT = {has_idea = USA_operation_idea}
 			
 		}
-		cost = 25
+		cost = 10
 		fire_only_once = yes
 		complete_effect = {
 		    add_timed_idea = {
 			    idea = USA_operation_idea
-				days = 30
+				days = 90
 			}
 		} 
 	}
@@ -172,12 +172,12 @@ USA_pacific_campaign = {
 			NOT = {has_idea = USA_operation_idea}
 			
 		}
-		cost = 25
+		cost = 10
 		fire_only_once = yes
 		complete_effect = {
 		    add_timed_idea = {
 			    idea = USA_operation_idea
-				days = 30
+				days = 90
 			}
 		} 
 	}
@@ -197,7 +197,7 @@ USA_pacific_campaign = {
 			has_completed_focus = USA_manhattan_project
 			
 		}
-		cost = 25
+		cost = 10
 		fire_only_once = yes
 		days_remove = 120
 		remove_effect = {
@@ -226,7 +226,7 @@ USA_pacific_campaign = {
 			has_completed_focus = USA_manhattan_project
 			
 		}
-		cost = 25
+		cost = 10
 		fire_only_once = yes
 		days_remove = 120
 		remove_effect = {
