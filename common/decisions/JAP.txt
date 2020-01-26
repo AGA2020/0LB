@@ -1059,7 +1059,7 @@ operations = {
 			}
 		}
 
-		cost = 200
+		cost = 2000
 
 		ai_will_do = {
 			base = 0

@@ -568,6 +568,9 @@ country_event = {
 			category = armor
 			bonus = 1.0
 		}
+		transfer_state = 408
+		transfer_state = 409
+		transfer_state = 655
 	}
 	option = {
 		name = japan_border_conflict.2.b
