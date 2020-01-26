@@ -578,6 +578,7 @@ country_event = {
 			original_tag = SOV
 		}
 		army_experience = 20
+		add_ideas = sov_lost_vladivostok
 	}
 }
 #Japan loses
