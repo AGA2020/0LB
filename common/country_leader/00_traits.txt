@@ -1617,7 +1617,7 @@ BUL_unifier = {
 		random = no
 		equipment_bonus = {
 			capital_ship = {
-				armor_value = 0.2
+				armor_value = 0.15
 				hg_attack = 0.2
 			}
 			screen_ship = {
@@ -1694,10 +1694,10 @@ BUL_unifier = {
 				build_cost_ic = -0.15 carrier_size = -0.1 naval_range = -0.5
 			}
 			capital_ship = {
-				build_cost_ic = -0.15 armor_value = -0.2 hg_attack = -0.15 naval_range = -0.5
+				build_cost_ic = -0.15 armor_value = -0.15 hg_attack = -0.15 naval_range = -0.5
 			}
 			screen_ship = {
-				build_cost_ic = -0.13 naval_range = -0.5 lg_attack = -0.06
+				build_cost_ic = -0.15 naval_range = -0.5 lg_attack = -0.05
 			}
 		}
 		
