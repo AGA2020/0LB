@@ -82,7 +82,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.04
 			}
 		}
 		spiritual_mobilization_idea = {
@@ -1101,7 +1101,7 @@ ideas = {
 		}
 		saionji_kinmochi = { #西園寺
 			available = {
-				NOT = { date > 1940.11.10 }
+				date > 1939.6.1 }
 			}
 			ai_will_do = {
 				factor = 1
