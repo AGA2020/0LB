@@ -1310,7 +1310,7 @@ ideas = {
 			
 
 			
-			traits = { navy_chief_reform_2 }
+			traits = { navy_chief_decisive_battle_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -1377,6 +1377,22 @@ ideas = {
 
 			
 			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		glenn_mcduffie = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { navy_capital_ship_1 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2134,7 +2150,7 @@ cost = 75
 				original_tag = USA
 			}
 			
-
+            cost = 75
 			
 			research_bonus = {
 				nuclear = 0.15
