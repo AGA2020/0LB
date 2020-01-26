@@ -140,7 +140,7 @@ focus_tree = {
 
 		cost = 5
 		available = {
-			date > 1937.5.1
+			date > 1937.9.1
 		}
 
 		will_lead_to_war_with = CHI
@@ -239,7 +239,7 @@ focus_tree = {
 			}
 		}
 		available = {
-			date > 1938.06.02
+			date > 1938.07.02
 		}
 
 		bypass = {
@@ -1060,6 +1060,8 @@ focus_tree = {
 				technology = construction4
 				technology = concentrated_industry3
 				technology = concentrated_industry4
+				technology = dispersed_industry3
+				technology = dispersed_industry4
 				technology = advanced_machine_tools
 				technology = assembly_line_production
 			}
@@ -1648,35 +1650,35 @@ focus_tree = {
 		716 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			328 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			714 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			715 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			610 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -1686,35 +1688,35 @@ focus_tree = {
 			716 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			328 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			714 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			715 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			610 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
