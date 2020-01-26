@@ -47,7 +47,7 @@ country_event = {
 					}
 					name = "Bismarck" 
 					requested_factories = 1
-					progress = 0.75
+					progress = 0.8
 					amount = 1
 			}
 		}
@@ -92,7 +92,7 @@ country_event = {
 					}
 					name = "Tirpitz" 
 					requested_factories = 1
-					progress = 0.75
+					progress = 0.8
 					amount = 1
 				}
 			}
