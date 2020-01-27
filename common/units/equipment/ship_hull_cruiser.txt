@@ -39,6 +39,14 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_cruiser_armor }	
 			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_light_battery
+					ship_medium_battery
+					ship_anti_air
+				}
+			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -49,6 +57,8 @@ equipments = {
 					ship_airplane_launcher
 				}
 			}
+			
+			
 			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
@@ -157,6 +167,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_light_battery
 					ship_medium_battery
+					ship_anti_air
 				}
 			}
 			
