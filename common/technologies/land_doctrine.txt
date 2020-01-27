@@ -95,7 +95,10 @@ technologies = {
 		}	
 		motorized_rocket_brigade = {
 			max_organisation = 10
-		}		
+		}
+		amphibious_mechanized = {
+			max_organisation = 10
+		}	
 		path = {
 			leads_to_tech = mechanised_offensive 
 			research_cost_coeff = 1
@@ -131,8 +134,22 @@ technologies = {
 	mechanised_offensive = {
 
 		motorized = {
+			max_organisation = 15		
+		}
+		mot_artillery_brigade = {
 			max_organisation = 15
-			
+		}
+		mot_anti_tank_brigade = {
+			max_organisation = 15
+		}
+		mot_anti_air_brigade = {
+			max_organisation = 15
+		}
+		mot_rocket_artillery_brigade = {
+			max_organisation = 15
+		}
+		motorized_rocket_brigade = {
+			max_organisation = 15
 		}
 		mechanized = {
 			max_organisation = 15
