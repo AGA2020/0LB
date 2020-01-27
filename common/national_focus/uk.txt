@@ -2037,10 +2037,6 @@ focus_tree = {
 					limit = {
 						OR = {
 							is_controlled_by = ROOT
-							AND = {
-								is_controlled_by = EGY
-								EGY = { is_in_faction_with = ROOT }
-							}
 						}
 					}
 					# Alexandria
@@ -2902,18 +2898,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 60
-			EGY = {
-				if = {
-					limit = {
-						is_subject_of = ENG
-					}
-					add_stability = 0.05
-					add_war_support = 0.05 
-					add_opinion_modifier = { target = ENG modifier = ENG_guiding_the_colonies }
-					add_ideas = ENG_guided_by_britain_1
-					hidden_effect = { country_event = { id =  mtg_britain.17 hours = 6 } }
-				}
-			}
 			CAN = {
 				if = {
 					limit = {

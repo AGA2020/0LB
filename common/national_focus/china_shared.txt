@@ -43,16 +43,10 @@ shared_focus = {
 	offset = {
 		x = -6
 		y = 0
-		trigger = {
-			tag = PRC
-		}
 	}
 	offset = {
 		x = -14
 		y = 0
-		trigger = {
-			 tag = MAN
-		}
 	}
 
 	cost = 10

@@ -405,7 +405,6 @@ operations = {
 			tag = ENG
 			has_war_with = GER
 			DEN = { exists = no }
-			NOT = { ICE = { is_in_faction_with = ROOT } }
 		}
 		
 		complete_effect = {
