@@ -1601,7 +1601,10 @@ technology = advanced_heavy_tank
 		cost = 5
 		
 		completion_reward = {
-			add_ideas = ITA_capital_idea
+			swap_ideas = {
+		remove_idea = ITA_destroyer_idea
+		add_idea = ITA_destroyer_idea_2
+		  	}
 		}
 	}
 
