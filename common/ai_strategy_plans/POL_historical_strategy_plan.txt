@@ -4,23 +4,6 @@ POL_historical_plan = {
 
 	enable = {
 		original_tag = POL
-		OR = {
-			AND = {
-				is_historical_focus_on = yes
-				has_game_rule = {
-					rule = POL_ai_behavior
-					option = DEFAULT
-				}
-			}
-			has_country_flag = POL_AI_RANDOM_HISTORICAL
-			has_game_rule = {
-				rule = POL_ai_behavior
-				option = HISTORICAL
-			}
-		}
-	}
-	abort = {
-		is_subject = yes
 	}
 
 	ai_national_focuses = {
