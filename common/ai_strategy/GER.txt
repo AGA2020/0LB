@@ -603,11 +603,7 @@ play_nice_with_ribbentrop_pact = {
 		OR ={
 			GER = { has_war_with = SOV }
 			date > 1941.5.1
-			AND = {
-				LIT = { is_in_faction_with = SOV }
-				LAT = { is_in_faction_with = SOV }
-				EST = { is_in_faction_with = SOV }
-			}
+			LIT = { is_in_faction_with = SOV }
 		}
 	}
 	
@@ -615,16 +611,6 @@ play_nice_with_ribbentrop_pact = {
 	ai_strategy = {
 		type = ignore
 		id = "LIT"
-		value = 100
-	}
-	ai_strategy = {
-		type = ignore
-		id = "LAT"
-		value = 100
-	}
-	ai_strategy = {
-		type = ignore
-		id = "EST"
 		value = 100
 	}
 }
