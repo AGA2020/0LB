@@ -114,7 +114,7 @@ ideas = {
 			removal_cost = -1
 			equipment_bonus = {
 			    submarine = {
-				    build_cost_ic = -0.2 instant = yes
+				    build_cost_ic = -0.3 instant = yes
 					surface_detection = 0.1 instant = yes
 					sub_visibility = -0.1 instant = yes
 			    }
