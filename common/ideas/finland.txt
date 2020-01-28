@@ -64,7 +64,6 @@ ideas = {
 			removal_cost = -1
 			picture = chi_wargaming_division
 			modifier = {
-			    army_org_factor = 0.05
 				recon_factor = 0.05
 				partisan_effect = 0.5
 				winter_attrition = -0.25
