@@ -129,7 +129,7 @@ add_equipment_to_stockpile = {
 1939.1.1 = {
 }
 
-set_convoys = 800
+set_convoys = 1000
 
 
 set_politics = {	
