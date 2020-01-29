@@ -281,6 +281,7 @@ ideas = {
 		
 			available = {
 				NOT = {	tag = SOV }
+				NOT = {	tag = JAP }
 			}
 
 			cost = 150
